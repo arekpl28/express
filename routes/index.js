@@ -3,7 +3,6 @@ const router = express.Router();
 const login = "admin";
 const password = "123";
 
-/* GET home page. */
 router.get("/", (req, res) => {
   res.render("index", { title: "Express" });
 });
